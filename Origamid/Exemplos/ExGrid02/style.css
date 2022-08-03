@@ -1,0 +1,76 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.titulo {
+  grid-column: 1/-1;
+  /* text-align: right; */
+}
+
+.info {
+  display: grid;
+  place-items: start;
+  gap: 20px
+}
+
+/*==== forma mais dificil, definindo linhas e colunas*/
+
+/* .foto {
+  grid-column: 1;
+  grid-row: 2 / 5;
+} */
+
+/* .preco {
+  place-self: start end;
+} */
+
+/* .comprar {
+  grid-column: 2;
+} */
+
+/* .descricao {
+  text-align: right;
+} */
+
+/*======= ESTILOS GERAIS ==========*/
+body {
+  margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.comprar {
+  text-decoration: none;
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
