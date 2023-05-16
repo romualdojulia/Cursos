@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.imagem {
+  text-align: center;
+}
